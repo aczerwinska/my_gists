@@ -1,0 +1,170 @@
+
+body { background-color: #333333; color: #FFFFFF; }
+
+body, p, ol, ul, td, .btn.btn-warning, {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+}
+
+
+
+a { color: #000; }
+a:visited { color: #eeeeee; }
+
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+.header.bg-primary{
+  background-color: #960055;
+}
+
+.btn:hover{
+  background-color: #AAFF00;
+  border-color: #AAFF00;
+  border-width: 2px;
+  color: #333333;
+}
+
+
+.btn.btn-primary{
+  background-color: #640039;
+  border-color: #640039;
+  border-width: 2px;
+
+}
+
+.btn.btn-danger{
+  background-color: #DD0055;
+  border-color: #DD0055;
+  border-width: 2px;
+
+}
+
+.btn.btn-primary:hover, .btn.btn-danger:hover{
+  background-color: #AAFF00;
+  border-color: #AAFF00;
+  border-width: 2px;
+  color: #333333;
+}
+
+.btn.btn-warning{
+    background-color: #880033;
+  border-color: #880033;
+  border-width: 2px;
+}
+
+.btn.btn-war{
+    background-color: #AA0060;
+  border-color: #AA0060;
+  border-width: 2px;
+  color: white;
+}
+
+.btn-success{
+  background-color: #FF0090;
+  border-color: #FF0090;
+  border-width: 2px;
+  color: white;
+}
+
+
+.btn-success:hover{
+  background-color: #AAFF00;
+  border-color: #AAFF00;
+  border-width: 2px;
+  color: #333333;
+}
+
+.btn-war:hover{
+  background-color: #AAFF00;
+  border-color: #AAFF00;
+  border-width: 2px;
+  color: #333333;
+}
+
+.btn-warning:hover{
+  background-color: #AAFF00;
+  border-color: #AAFF00;
+  border-width: 2px;
+  color: #333333;
+}
+
+.btn-lg:hover{
+  background-color: #AAFF00;
+  border-color: #AAFF00;
+  border-width: 2px;
+  color: #333333;
+}
+
+.btn-primary:hover{
+  background-color: #AAFF00;
+  border-color: #AAFF00;
+  border-width: 2px;
+  color: #333333;
+}
+
+#gist_snippet{
+  color:black;
+}
+
+#gist_description
+{
+  color:black;
+}
+#gist_lang{
+    background-color: #640039;
+  border-color: #640039;
+  border-width: 2px;
+}
+
+input[type="submit"]{
+  background-color: #640039;
+  border-color: #640039;
+  border-width: 2px;
+}
+
+
+input[type="submit"]:hover{
+  background-color: #AAFF00;
+  border-color: #AAFF00;
+  color: #333333;
+}
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  font-size: 19px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#error_explanation ul li {
+  font-size: 12px;
+  font-size: 19px;
+  list-style: square;
+}
