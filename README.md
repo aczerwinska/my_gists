@@ -12,13 +12,13 @@ Aplikacja "My Gists" na zaliczenie laboratoriów z przedmiotu Architektury Serwi
 * Wyszukiwanie gistów po opisie
 * Plik seeds.rb zawierający wpisy
 
-===Użyte gemy:
+#Użyte gemy:
 * bootstrap-sass
 * will_paginate
 * pygments.rb
 * redcarpet
 * quiet_assets
 
-===Heroku:
+#Heroku:
 http://gistmys.herokuapp.com
 
