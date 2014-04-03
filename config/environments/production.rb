@@ -27,7 +27,15 @@ MyGists::Application.configure do
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
+<<<<<<< HEAD
   config.assets.compile = true
+=======
+<<<<<<< HEAD
+  config.assets.compile = true
+=======
+  config.assets.compile = false
+>>>>>>> 8b1ec21485ddef8caa60b5a0d0e4f69058cfc7c7
+>>>>>>> f21cc1d0678f2c01c36583d8856f544126dd359c
 
   # Generate digests for assets URLs.
   config.assets.digest = true

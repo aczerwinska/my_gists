@@ -9,12 +9,17 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f21cc1d0678f2c01c36583d8856f544126dd359c
  *= require bootstrap
  *= require_tree .
  */
 
 @import "bootstrap";
 
+<<<<<<< HEAD
 .header{
 	position: fixed;
 	top: 0;
@@ -26,3 +31,9 @@
 	padding: 15px;
 	margin-top: 100px;
 }
+=======
+=======
+ *= require_tree .
+ */
+>>>>>>> 8b1ec21485ddef8caa60b5a0d0e4f69058cfc7c7
+>>>>>>> f21cc1d0678f2c01c36583d8856f544126dd359c

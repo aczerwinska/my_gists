@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <%= render 'index' %>
 
 <div style="padding-top:200px; text-align: left; font-size: 60px;"> My gists</div>
@@ -19,3 +20,77 @@
 </div>
 
 
+=======
+<<<<<<< HEAD
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<div class="header bg-primary">
+<a href="/" class="btn btn-primary btn-lg active" role="button"> Main Page</a>
+<a href="https://github.com/aczerwinska/my_gists" class="btn btn-primary btn-lg active" role="button"> Github</a>
+
+	<form class="navbar-form navbar-right" role="form">
+		Description
+                <%= form_tag gists_path, :method => 'get' do %>
+                 <%= (text_field_tag :search, params[:search], class:'form-control') %>
+                <%= submit_tag "Ask", class:'btn btn-warning' , :name => nil, :onclick => "$( document ).ready;"%>
+               
+               
+                <% end %>
+
+	</form>
+
+
+</div>
+
+
+<div style="padding-top:50px; text-align: left; font-size: 60px; height:100px;"> My gists</div>
+<%= link_to 'New Gist', new_gist_path, class:'btn btn-success btn-lg'%>
+
+<div class="main center-block">
+
+<div class="gists">	
+<table class="table">
+<%= render :partial => 'gist', :collection => @gists %>
+</table>
+</div>
+
+
+
+
+</div>
+=======
+<h1>Listing gists</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Snippet</th>
+      <th>Lang</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @gists.each do |gist| %>
+      <tr>
+        <td><%= gist.snippet[0,10] %>[…]</td>
+        <td><%= gist.lang %></td>
+        <td><%= gist.description %></td>
+        <td><%= link_to 'Show', gist %></td>
+        <td><%= link_to 'Edit', edit_gist_path(gist) %></td>
+        <td><%= link_to 'Destroy', gist, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Gist', new_gist_path %>
+>>>>>>> 8b1ec21485ddef8caa60b5a0d0e4f69058cfc7c7
+>>>>>>> f21cc1d0678f2c01c36583d8856f544126dd359c

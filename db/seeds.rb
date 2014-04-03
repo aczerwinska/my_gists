@@ -5,6 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+<<<<<<< HEAD
 Gist.create(snippet: 
 'public class Java{ 
 	private String abc;
@@ -619,3 +620,5 @@ lang: 'javascript', description: 'some Javascript Math')
 
 
 
+=======
+>>>>>>> f21cc1d0678f2c01c36583d8856f544126dd359c

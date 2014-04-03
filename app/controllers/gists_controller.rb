@@ -4,6 +4,7 @@ class GistsController < ApplicationController
   # GET /gists
   # GET /gists.json
   def index
+<<<<<<< HEAD
        @gists = Gist.paginate(:page => params[:page]).search(params[:search])
 			respond_to do |format|
 			format.html
@@ -11,6 +12,20 @@ class GistsController < ApplicationController
 		end
   end
 
+=======
+<<<<<<< HEAD
+       @gists = Gist.paginate(:page => params[:page]).search(params[:search])
+respond_to do |format|
+format.html
+format.js
+end
+  end
+=======
+    @gists = Gist.all
+  end
+
+>>>>>>> 8b1ec21485ddef8caa60b5a0d0e4f69058cfc7c7
+>>>>>>> f21cc1d0678f2c01c36583d8856f544126dd359c
   # GET /gists/1
   # GET /gists/1.json
   def show
@@ -75,4 +90,12 @@ class GistsController < ApplicationController
     def gist_params
       params.require(:gist).permit(:snippet, :lang, :description)
     end
+<<<<<<< HEAD
 end
+=======
+<<<<<<< HEAD
+end
+=======
+end
+>>>>>>> 8b1ec21485ddef8caa60b5a0d0e4f69058cfc7c7
+>>>>>>> f21cc1d0678f2c01c36583d8856f544126dd359c

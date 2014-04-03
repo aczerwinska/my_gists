@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div style="width:100%; margin-bottom: 65px;"> 
 
       <div> 
@@ -19,3 +20,15 @@
       </div>
 
 </div>
+=======
+<tbody>
+      <tr>
+        <td class="doHide"> <%= gist.snippet[0,20] %>[...]</td>
+        <td class='lang'><%= gist.lang %></td>
+        <td class='desc' style: "colorful"><%= gist.description %></td>
+        <td class='lang'> <%=link_to 'Show', gist,class:'btn btn-success btn-block' %> </td>
+<td><%= link_to 'Edit', edit_gist_path(gist),class:'btn btn-war btn-block' %></td>
+        <td><%= link_to 'Destroy', gist, method: :delete, data: { confirm: 'Are you sure?' },class:'btn btn-warning btn-danger btn-block' %></td>
+      </tr>
+</tbody>
+>>>>>>> f21cc1d0678f2c01c36583d8856f544126dd359c

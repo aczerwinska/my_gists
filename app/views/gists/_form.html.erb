@@ -1,4 +1,17 @@
+<<<<<<< HEAD
 <%= form_for(@gist) do |f| %>
+=======
+<<<<<<< HEAD
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<%= form_for(@gist) do |f| %>
+
+>>>>>>> f21cc1d0678f2c01c36583d8856f544126dd359c
 <% lex = Pygments::Lexer.all.select{|y| !(y.filenames.empty?)}.map{|x|[x.name, x.filenames.first.gsub('*','')]}.sort %>
 <%
   all_lexers = Pygments.lexers.flatten.select.with_index(offset = 0) { |x,i| i % 2 == 0 }.sort
@@ -6,6 +19,12 @@
   all_lexers = all_lexers.map { |x| x.downcase }
 %>
 
+<<<<<<< HEAD
+=======
+=======
+<%= form_for(@gist) do |f| %>
+>>>>>>> 8b1ec21485ddef8caa60b5a0d0e4f69058cfc7c7
+>>>>>>> f21cc1d0678f2c01c36583d8856f544126dd359c
   <% if @gist.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@gist.errors.count, "error") %> prohibited this gist from being saved:</h2>
@@ -20,15 +39,33 @@
 
   <div class="field">
     <%= f.label :snippet %><br>
+<<<<<<< HEAD
     <%= f.text_area :snippet, :size => "80x20" %>
   </div>
   <div class="field">
     <%= f.label :lang %><br>
+=======
+    <%= f.text_area :snippet, :size => "100x10" %>
+  </div>
+  <div class="field">
+    <%= f.label :lang %><br>
+<<<<<<< HEAD
+>>>>>>> f21cc1d0678f2c01c36583d8856f544126dd359c
     <%= f.select :lang, all_lexers %>
   </div>
   <div class="field">
     <%= f.label :description %><br>
     <%= f.text_field :description %>
+<<<<<<< HEAD
+=======
+=======
+    <%= f.text_field :lang , :size => "50" %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_field :description  , :size => "50" %>
+>>>>>>> 8b1ec21485ddef8caa60b5a0d0e4f69058cfc7c7
+>>>>>>> f21cc1d0678f2c01c36583d8856f544126dd359c
   </div>
   <div class="actions">
     <%= f.submit %>

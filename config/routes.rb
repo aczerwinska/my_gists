@@ -1,11 +1,23 @@
 MyGists::Application.routes.draw do
   resources :gists
+<<<<<<< HEAD
   root to: 'gists#index'
+=======
+
+>>>>>>> f21cc1d0678f2c01c36583d8856f544126dd359c
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
+<<<<<<< HEAD
   # root 'welcome#index'
+=======
+<<<<<<< HEAD
+   root 'gists#index'
+=======
+  # root 'welcome#index'
+>>>>>>> 8b1ec21485ddef8caa60b5a0d0e4f69058cfc7c7
+>>>>>>> f21cc1d0678f2c01c36583d8856f544126dd359c
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
