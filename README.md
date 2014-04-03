@@ -1,8 +1,8 @@
-== README
+#My Gists
 
 Aplikacja "My Gists" na zaliczenie laboratoriów z przedmiotu Architektury Serwisów Internetowych prowadzonych przez dr W. Bzyla.
 
-Funkcjonalność:
+#Funkcjonalność:
 * Oparcie się na funkcjonalności CRUD
 * Dodanie bootstrapa
 * Zwiększone pole textarea w formularzu
@@ -11,11 +11,11 @@ Funkcjonalność:
 * Responsywność
 * Wyszukiwanie gistów po opisie
 
-Użyte gemy:
+#Użyte gemy:
 * bootstrap-sass
 * will_paginate
 * pygments.rb
 
-Heroku:
+#Heroku:
 http://gistmys.herokuapp.com
 
